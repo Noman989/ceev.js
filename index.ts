@@ -52,6 +52,19 @@ class ConnectionCache {
             console.log(this.connections);
         }, 1000);
     }
+
+    setName(name: string) {
+        console.log(name);
+    }
+
+    getConnections() {
+
+    }
+
+    getConnection() {
+        
+    }
+
 }
 
 function createConnectionCache (PORT: number) {
