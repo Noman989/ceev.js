@@ -1,0 +1,20 @@
+{
+  "name": "ceev.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "ts-node test.ts"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.22.0"
+  }
+}
